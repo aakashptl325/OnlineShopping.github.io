@@ -21,5 +21,5 @@ if ($con)
 	}
 }
 mysqli_close($con);
-    Header('Location:http://localhost/ShoppingApp/categories.php');
+    Header('Location:https://aakashptl325.github.io/OnlineShopping.github.io/categories.php');
 ?>

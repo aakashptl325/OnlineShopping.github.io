@@ -26,7 +26,7 @@
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-3">
-            <form class="form-inline" action="http://localhost/ShoppingApp/Logincheck.php">
+            <form class="form-inline" action="https://aakashptl325.github.io/OnlineShopping.github.io/Logincheck.php">
                 <div class="form-group">
                     <label for="user"> User ID </label>&emsp;&emsp;
                     <input type="text" name="user" id="user" class="form-control form-control-lg" />
@@ -44,7 +44,7 @@
                 <br />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button onclick="document.location='http://localhost/ShoppingApp/index.php'" class="btn btn-primary btn-lg">Home Page</button>
             </div>
             <div>
-                <br /><a href="http://localhost/ShoppingApp/CreateAcc.html">New User? Create New Account</a>
+                <br /><a href="https://aakashptl325.github.io/OnlineShopping.github.io/CreateAcc.html">New User? Create New Account</a>
             </div>
             
         </div>

@@ -22,12 +22,12 @@ if ($con)
         $_SESSION["email"]=$row["email"];
         $_SESSION["contact"]=$row["contact"];
         setcookie("invalid","",time()-20);
-        Header('Location:http://localhost/ShoppingApp/Logintable.php');
+        Header('Location:https://aakashptl325.github.io/OnlineShopping.github.io/Logintable.php');
     }
     else
     {
 	setcookie("invalid","User Id or Password is Invalid Enter valid data");
-        Header('Location:http://localhost/ShoppingApp/Loginpage.php');
+        Header('Location:https://aakashptl325.github.io/OnlineShopping.github.io/Loginpage.php');
     }
 }
 ?>
