@@ -18,17 +18,17 @@ while($row=mysqli_fetch_assoc($result))
 	$desc=$row["c_description"];
 	$cname=$row["c_name"];
 	echo("<div class='col'>");
-	echo("<br/><br/><button  onclick=document.location='http://localhost/ShoppingApp/SelectProduct.php?cid=$cid' class='btn info' title='$desc'><img src='Categories/$cname.jpg' width='400' height='300' class='rounded' /><br/>$cname</button>");
+	echo("<br/><br/><button  onclick=document.location='https://aakashptl325.github.io/OnlineShopping.github.io/SelectProduct.php?cid=$cid' class='btn info' title='$desc'><img src='Categories/$cname.jpg' width='400' height='300' class='rounded' /><br/>$cname</button>");
 	echo("</div>");
 }
 echo("</div>");
 
 if(isset($_SESSION["u_id"]))
 {
-	echo("<br/><br/>&emsp;&emsp;&emsp;&emsp;<button  onclick=document.location='http://localhost/ShoppingApp/Logout.php' class='btn btn-primary'>Logout</button><br/>");
+	echo("<br/><br/>&emsp;&emsp;&emsp;&emsp;<button  onclick=document.location='https://aakashptl325.github.io/OnlineShopping.github.io/Logout.php' class='btn btn-primary'>Logout</button><br/>");
 }
 else
 {
-	echo("<br/><br/>&emsp;&emsp;&emsp;&emsp;<button  onclick=document.location='http://localhost/ShoppingApp/Loginpage.php' class='btn btn-primary'>Login Here</button>");
+	echo("<br/><br/>&emsp;&emsp;&emsp;&emsp;<button  onclick=document.location='https://aakashptl325.github.io/OnlineShopping.github.io/Loginpage.php' class='btn btn-primary'>Login Here</button>");
 }
 ?>
